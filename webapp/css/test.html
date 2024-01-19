@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Lesson : Table</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1> Lesson about Table</h1>
+        <hr>
+        
+        <table border = '1' width = "60%" bgcolor = "yellow" cellspacing = "40"
+               cellpadding = "20">
+            <caption align = "bottom">Blood sugar range information</caption>
+            <tr bgcolor = "cyan">
+                <th rowspan="2">State of Health</th>
+                <th colspan="2">Fasting Value</th>
+                <th>After eating</th>
+            </tr>
+            
+            <tr>
+                <td>Minimum</td>
+                <td bgcolor = "black">Maximum</td>
+                <td>Two hours after eating</td>
+            </tr>
+            
+            <tr>
+                <td align = "center">Healthy</td>
+                <td>70</td>
+                <td>100</td><!-- -->
+                <td>Less than 140</td>
+            </tr>
+            
+             <tr>
+                <td>Pre-Diabetes</td>
+                <td>101</td>
+                <td>126</td><!-- -->
+                <td>140 to 200</td>
+              </tr>
+                        
+             <tr>
+                <td>Diabetes</td>
+                <td>More than 126</td>
+                <td bgcolor = "pink">N/A</td><!-- -->
+                <td>More than 200</td>
+              </tr>
+           
+            
+        </table>
+        <div>TODO write content</div>
+    </body>
+</html>
